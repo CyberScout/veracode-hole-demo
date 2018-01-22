@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/friendly-customer-app/friendly-customer-app.iml" filepath="$PROJECT_DIR$/friendly-customer-app/friendly-customer-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/friendly-customer-app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/friendly-customer-app_main.iml" group="friendly-customer-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/friendly-customer-app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/friendly-customer-app_test.iml" group="friendly-customer-app" />
+      <module fileurl="file://$PROJECT_DIR$/malicious-data-stealer/malicious-data-stealer.iml" filepath="$PROJECT_DIR$/malicious-data-stealer/malicious-data-stealer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/malicious-data-stealer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/malicious-data-stealer_main.iml" group="malicious-data-stealer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/malicious-data-stealer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/malicious-data-stealer_test.iml" group="malicious-data-stealer" />
+    </modules>
+  </component>
+</project>

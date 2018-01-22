@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="friendly-customer-app_main" target="1.8" />
+      <module name="friendly-customer-app_test" target="1.8" />
+      <module name="malicious-data-stealer_main" target="1.8" />
+      <module name="malicious-data-stealer_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
