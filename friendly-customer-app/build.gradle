@@ -10,7 +10,7 @@ buildscript {
 	}
 }
 
-apply plugin: 'groovy'
+apply plugin: 'java'
 apply plugin: 'eclipse-wtp'
 apply plugin: 'org.springframework.boot'
 
@@ -29,8 +29,6 @@ configurations {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
-	compile('org.codehaus.groovy:groovy:2.4.13')
-	compile('org.codehaus.groovy:groovy-json:2.4.13')
 	compile('com.squareup.okhttp3:okhttp:3.9.1')
 	runtime('org.springframework.boot:spring-boot-devtools')
 	compileOnly('org.springframework.boot:spring-boot-configuration-processor')

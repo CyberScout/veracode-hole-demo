@@ -15,7 +15,6 @@
     <output-test url="file://$MODULE_DIR$/../../friendly-customer-app/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../friendly-customer-app/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../friendly-customer-app/src/test/groovy" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../friendly-customer-app/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../friendly-customer-app/src/test/resources" type="java-test-resource" />
     </content>
@@ -24,13 +23,11 @@
     <orderEntry type="module" module-name="friendly-customer-app_main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy:2.4.13" level="project" />
-    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-json:2.4.13" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.9.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-devtools:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf-spring4:3.0.9.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-devtools:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:2.2.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.3.6.Final" level="project" />
@@ -56,6 +53,7 @@
     <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf:3.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: nz.net.ultraq.thymeleaf:thymeleaf-expression-processor:1.1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy:2.4.13" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.23" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.23" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.23" level="project" />

@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/Thymeleaf Templates Expressions Fragment (index.html:86).thymes">
           <value>
             <set />
@@ -33,6 +38,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/groovy/com/notaneye/demo/friendly/FriendlyCustomerApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/groovy/com/notaneye/demo/friendly/SecurityConfiguration.groovy">
           <value>
             <set />
@@ -48,6 +58,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/groovy/com/notaneye/demo/friendly/service/HarmlessExternalApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/groovy/com/notaneye/demo/friendly/web/HomeController.groovy">
           <value>
             <set />
@@ -58,7 +73,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/groovy/com/notaneye/demo/friendly/web/RegistrationCommand.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/groovy/com/notaneye/demo/friendly/web/SuperFriendlyController.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/groovy/com/notaneye/demo/friendly/web/SuperFriendlyController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/java/com/notaneye/demo/friendly/FriendlyCustomerApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/java/com/notaneye/demo/friendly/service/HarmlessExternalApi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/java/com/notaneye/demo/friendly/web/RegistrationCommand.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/java/com/notaneye/demo/friendly/web/SuperFriendlyController.java">
           <value>
             <set />
           </value>
