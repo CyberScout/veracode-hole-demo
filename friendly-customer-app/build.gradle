@@ -30,6 +30,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('com.squareup.okhttp3:okhttp:3.9.1')
+    compile('org.owasp.encoder:encoder:1.2.1')
 	runtime('org.springframework.boot:spring-boot-devtools')
 	compileOnly('org.springframework.boot:spring-boot-configuration-processor')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')

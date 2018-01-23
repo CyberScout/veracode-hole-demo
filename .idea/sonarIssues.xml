@@ -93,6 +93,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/java/com/notaneye/demo/friendly/security/LogScrubber.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/java/com/notaneye/demo/friendly/security/LogScrubber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/java/com/notaneye/demo/friendly/security/SecurityUtilities.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/friendly-customer-app/src/main/java/com/notaneye/demo/friendly/service/HarmlessExternalApi.java">
           <value>
             <set />
@@ -194,6 +209,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../sandbox/spring-boot-run/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
           <value>
             <set />
           </value>

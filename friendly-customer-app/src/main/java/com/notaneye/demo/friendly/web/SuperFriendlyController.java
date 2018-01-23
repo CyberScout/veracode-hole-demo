@@ -17,6 +17,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.UUID;
 
+import static com.notaneye.demo.friendly.security.SecurityUtilities.scrub;
+
 
 @Controller
 @SessionAttributes({ "registration" })
@@ -40,7 +42,7 @@ public class SuperFriendlyController {
     @GetMapping("/")
     public ModelAndView index(@ModelAttribute("registration") RegistrationCommand registration) {
 
-        LOG.info("Starting registration process {}", registration.getRegistrationId());
+        LOG.info("Starting registration process {}", scrub(registration.getRegistrationId()));
         Map<String, RegistrationCommand> map = new LinkedHashMap<>();
         map.put("registration", registration);
         return new ModelAndView("index", map);
@@ -50,7 +52,8 @@ public class SuperFriendlyController {
     @PostMapping("/register")
     public ModelAndView register(@ModelAttribute("registration") RegistrationCommand registration) {
 
-        LOG.info("Registering new user '{}' ({})", registration.getUsername(), registration.getRegistrationId());
+        LOG.info("Registering new user '{}' ({})", scrub(registration.getUsername()),
+                 scrub(registration.getRegistrationId()));
         this.api.enrolledEvent(registration);
         return new ModelAndView("pii");
     }
@@ -60,7 +63,7 @@ public class SuperFriendlyController {
     public ModelAndView finishRegistration(@ModelAttribute("registration") RegistrationCommand registration,
             SessionStatus status) {
 
-        LOG.info("User registration complete ({})", registration.getRegistrationId());
+        LOG.info("User registration complete ({})", scrub(registration.getRegistrationId()));
         this.api.piiEvent(registration);
         status.setComplete();
         return new ModelAndView("complete");
