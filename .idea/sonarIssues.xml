@@ -153,6 +153,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/test/groovy/com/notaneye/demo/friendly/FriendlyCustomerApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/friendly-customer-app/src/test/java/com/notaneye/demo/friendly/FriendlyCustomerApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/malicious-data-stealer/build.gradle">
           <value>
             <set />
